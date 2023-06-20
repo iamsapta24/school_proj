@@ -1,0 +1,125 @@
+/* Main Heading */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+nav li {
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Systems Section */
+#systems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#systems li {
+  margin: 5px 0;
+}
+
+#systems a {
+  text-decoration: none;
+  color: #333;
+}
+
+#systems a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Assets Section */
+#assets ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#assets li {
+  margin: 5px 0;
+}
+
+#assets a {
+  text-decoration: none;
+  color: #333;
+}
+
+#assets a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+#system-select-container {
+  /* display: none; */
+}
+
+/* Assignment Section */
+#assignment ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#assignment li {
+  margin: 5px 0;
+}
+
+#assignment a {
+  text-decoration: none;
+  color: #333;
+}
+
+#assignment a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Description box */
+#description {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Assignment box */
+#assignment-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Download button */
+#download {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
